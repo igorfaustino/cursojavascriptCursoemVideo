@@ -1,0 +1,13 @@
+// var inicio = document.querySelector('#txtinicio').value
+// var fim = document.querySelector('#txtfim').value
+// var passos = document.querySelector('#txtpassos').value
+// var result = document.querySelector('#txtresult').value
+
+var inicio = 1
+var fim = 10
+var passos = 1
+
+
+    for(var i = inicio; i <= fim; inicio += passos){
+        console.log(i)
+    }

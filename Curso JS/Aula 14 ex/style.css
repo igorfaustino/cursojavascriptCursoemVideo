@@ -1,0 +1,44 @@
+body{
+    background: #46c0b8;
+    font: normal 15pt arial;
+}
+
+header{
+    color: white;
+    text-align: center;
+}
+
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    
+}
+
+#contar:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+    box-shadow: 5px 5px 10px rgba(0, 255, 255, 0.159);
+}
+
+footer{
+    padding: 15px;
+    font-size: 10pt;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+
+#contar{
+    background-color: rgba(0, 134, 134, 0.522);
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-size: large;
+
+}
